@@ -1,0 +1,28 @@
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  </head>
+    <body>
+          
+      <header class="projects">
+        <h1 class="projects-title">
+          <p><i class="fa fa-paper-plane fa-3x"></i></p>
+          <a href="{{ site.baseurl }}/project"><span>Project</span></a>
+        </h1>
+        <nav class="projects-nav">
+          {% for nav in site.nav %}
+          {% if nav.name != "project" %}
+            <a href="{{ nav.href }}">{{ nav.name }}</a>
+          {% endif %}
+          {% endfor %}
+        </nav>
+      </header>
+
+      {{ content }}
+
+{% include footer.html %}
+</body>
+</html>
