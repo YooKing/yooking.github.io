@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js" integrity="sha384-L2pyEeut/H3mtgCBaUNw7KWzp5n9+4pDQiExs933/5QfaTh8YStYFFkOzSoXjlTb" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
+  <style type="text/css">
+    #divNav_mobile{display:none} 
+    @media (max-width: 767.98px) 
+    { 
+    #divNav_mobile{display:block}
+    #card1{display:none} 
+    } 
+    </style>
 </head>
 <body>
+     <div class="pos-f-t">
+       <div class="collapse" id="navbarToggleExternalContent">
+         <div class="bg-dark p-4">
+           <h5 class="text-white h4" style="color: #fff;"><a style="color: #f2f2f2;" href="blog" target="_blank">博客</a></h5>
+           <h5 class="text-white h4" style="color: #fff;"><a style="color:  #f2f2f2;" href="mc" target="_blank">我的世界</a></h5>
+         </div>
+       </div>
+       <nav class="navbar navbar-dark bg-dark" id="divNav_mobile">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+       </nav>
+     </div>
   <div class="jumbotron jumbotron-fluid" style="background-color: #fff;">
     <div class="container">
       <h1 class="display-1" style="color: #13678b;">
-        Yooking<small class="lead" style="color: #515151;">&nbsp&nbsp&nbspa struggling youth</small>
+        Yooking
       </h1>
+      <p class="lead">a struggling youth</p>
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 1.2rem;">
           <ul class="navbar-nav mr-auto">
@@ -44,7 +66,7 @@
   </div>
   <div class="container">
     <div class="d-flex justify-content-center">
-    <div class="card" style="width: 18rem;margin: 18px 18px 18px;">
+    <div class="card" style="width: 18rem;margin: 18px 18px 18px;" id="card1">
       <img src="assets/1.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">为我发电</h5>
