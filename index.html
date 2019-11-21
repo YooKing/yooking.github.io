@@ -28,10 +28,16 @@
     #divNav_mobile{display:block}
     #card1{display:none} 
     } 
-    </style>
+  </style>
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
 </head>
 <body>
-     <div class="pos-f-t">
+  <!--导航-->
+  <div class="pos-f-t">
        <div class="collapse" id="navbarToggleExternalContent">
          <div class="bg-dark p-4">
            <h5 class="text-white h4" style="color: #fff;"><a style="color: #f2f2f2;" href="blog" target="_blank">博客</a></h5>
@@ -44,7 +50,8 @@
            <span class="navbar-toggler-icon"></span>
          </button>
        </nav>
-     </div>
+  </div>
+   <!--巨幕-->
   <div class="jumbotron jumbotron-fluid" style="background-color: #fff;">
     <div class="container">
       <h1 class="display-1" style="color: #13678b;">
@@ -79,39 +86,82 @@
       </nav>
     </div>
   </div>
+   <!--主体-->
   <div class="container">
-    <div class="d-flex justify-content-center">
-    <div class="card" style="width: 18rem;margin: 18px 18px 18px;" id="card1">
-      <img src="assets/1.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">为我发电</h5>
-        <p class="card-text">我创建了一个我的世界公益服，你可以来为我发电</p>
-        <a href="https://afdian.net/@ykmc25565" class="btn btn-primary" target="_blank">去发电</a>
-      </div>
-    </div>
-    <div class="d-flex flex-column bd-highlight mb-2">
-      <div class="p-2 bd-highlight" style="margin: 18px 18px 18px;">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">加入QQ群</h5>
-            <p class="card-text">进入QQ和我们一起交流。</p>
-            <a href="https://jq.qq.com/?_wv=1027&k=5m1TZss" class="btn btn-primary" target="_blank">GO</a>
-          </div>
-        </div>
-      </div>
-      <div class="p-2 bd-highlight" style="margin: 18px 18px 18px;">
-          <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Patreon</h5>
-                <p class="card-text">换个地方为我发电。</p>
-                <a href="https://www.patreon.com/yklove" class="btn btn-primary" target="_blank">GO</a>
-              </div>
-            </div>
-      </div>
-    </div>
-    
+  <!--卡片组-->
+  <div class="card-columns">
+  <div class="card">
+    <img src="assets/1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">为我发电</h5>
+      <p class="card-text">我创建了一个我的世界公益服，你可以来为我发电</p>
+      <a href="https://afdian.net/@ykmc25565" class="btn btn-primary" target="_blank">去发电</a>
     </div>
   </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">KUNOTE微信公众号</h5>
+      <p class="card-text">关注了解更多。</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#wechat">
+          二维码
+      </button>
+      <div class="modal fade" id="wechat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">扫描二维码关注</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/2.jpg"></img>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">扫完了</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Patreon</h5>
+      <p class="card-text">换个地方为我发电。</p>
+      <a href="https://www.patreon.com/yklove" class="btn btn-primary" target="_blank">GO</a>
+    </div>
+  </div>
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>路漫漫其修远兮，吾将上下而求索</p>
+      <footer class="blockquote-footer text-white">
+        <small>
+            屈原 <cite title="Source Title">《离骚》</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">笔记</h5>
+      <p class="card-text"><S>分享知识，共同进步</S></p>
+      <a href="kl" class="btn btn-primary" target="_blank">GO</a>
+      <p class="card-text"><small class="text-muted">目前无更新</small></p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">加入QQ群</h5>
+      <p class="card-text">进入QQ和我们一起交流。</p>
+      <a href="https://jq.qq.com/?_wv=1027&k=5m1TZss" class="btn btn-primary" target="_blank">GO</a>
+    </div>
+  </div>
+</div>
+  </div>
+
+
 </body>
 <footer>
   <div class="container-fluid" style="background-color: #f2f2f2;">
