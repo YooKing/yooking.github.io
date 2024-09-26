@@ -1,0 +1,118 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<!-- 致谢部分 -->
+<div style="text-align: right; font-style: italic; margin-bottom: 12px;font-size: 16px;color: #5a7d9a;">
+  We gratefully acknowledge <strong>Prof. Xingong Tang</strong> from Yangtze University, <strong>Prof. Dikun Yang</strong> from Southern University of Science and Technology, <strong>the USGS</strong>, and <strong>Geoscience Australia</strong> for providing field data. 
+  Special thanks to <strong>Dr. Zhanhui Li</strong> for providing EM forward modeling and inversion algorithms.
+</div>
+
+
+<h2>&#127775; Uncertainty quantification for geophysical inverse problems</h2>
+<p, align = "justify">
+I have a strong interest in addressing uncertainty in geophysical inverse problems. I develop various Bayesian inference approaches,
+  including McMC sampling methods, variational inference and generative models from machine learning, to reconstruct the posterior probability distribution
+  of solutions and quantitatively evaluate uncertainty.
+</p>
+
+
+<div style="margin-bottom: 30px; background-color: white; border: 1px solid white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <h2 style="margin-top: 0; margin-bottom: 20px; text-align: left;">&#9658; Bayesian inversion based on the invertible neural network (INN)</h2>
+  <img src="/images/UQ1.png" alt="Project 3" style="max-width: 100%; height: auto; border-radius: 5px;">
+</div>
+
+<h2>&#127775; DL-based AEM data analysis system</h2>
+<p, align = "justify">
+During my PhD and first postdoctoral program, I focused on developing a comprehensive analysis system for airborne electromagnetic data (AEM) based on deep learning (DL)
+  techniques. The system consists of key processes, including denoising, simulation, resistivity imaging and uncertainty analysis. 
+  The overall goal is investigating underground structures with higher depth resolution and efficiency.
+</p>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px; background-color: white; border: 1px solid white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <div style="flex: 1; margin-right: 20px;">
+    <img src="/images/TEM-denoising.png" alt="Project 1" style="width: 75%; height: auto; display: block; border-radius: 5px;">
+  </div>
+  <div style="flex: 2;">
+    <h2 style="margin-top: 0;">&#9658; Denoising</h2>
+    <p, align = "justify; margin-bottom: 5px;">The late-time time-domain EM (TEM) responses are often dominated by complex noises, including environmental noise, systematic erros, industrial power disturbance,
+       and sferics. We developed a long short-term memory (LSTM) network with the autoencoder structure to improve the quality of TEM signals
+      at later times, thus enabling us to better resolve deeper structures.</p>
+    <p style="text-align: right; margin-top: 0px;margin-bottom: 0px;">
+      <a href="https://doi.org/10.1093/gji/ggaa424" target="_blank" style="text-decoration: underline; color: #555555; font-size: 16px;">Wu et al., 2021a</a>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px; background-color: white; border: 1px solid white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <div style="flex: 1.5; margin-right: 20px; align-self: center;">
+    <img src="/images/TEM-modeling.png" alt="Project 1" style="width: 100%; height: auto; display: block; border-radius: 5px;">
+  </div>
+  <div style="flex: 2;">
+    <h2 style="margin-top: 0;">&#9658; Forward Modeling</h2>
+    <p, align = "justify; margin-bottom: 5px;">Forward modeling represents a large proportion of computational cost in the inversion process.
+      We developed an AEM simulator based on a LSTM network to accelarate 1-D forward modeling. It has great potential to accelerate sampling-based
+      inversion approaches and facilitate integration of physical constraints into DL-based inversion frameworks.
+      </p>
+    <p style="text-align: right; margin-top: 0px;margin-bottom: 0px;">
+      <a href="https://doi.org/10.1093/gji/ggac463" target="_blank" style="text-decoration: underline; color: #555555; font-size: 16px;">Wu et al., 2023a</a>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px; background-color: white; border: 1px solid white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <div style="flex: 1.5; margin-right: 20px; align-self: center;">
+    <img src="/images/TEM-inversion.png" alt="Project 1" style="width: 100%; height: auto; display: block; border-radius: 5px;">
+  </div>
+  <div style="flex: 2;">
+    <h2 style="margin-top: 0;">&#9658; Fast Resistivity Imaging</h2>
+    <p, align = "justify; margin-bottom: 5px;">
+      Huge volumes of AEM observations present a great challenge to data inversion due to the high computational cost. We developed fast inversion operators for AEM data based on CNN and LSTM network. The inversion results of more than 740,000 AEM soundings acquired 
+      in Leach Lake Basin, CA, USA, are delivered in seconds. The inversion operators can support near real-time subsurface imaging.
+    </p>
+    <p style="text-align: right; margin-top: 0px;margin-bottom: 0px;">
+      <a href="https://doi.org/10.1111/1365-2478.13136" target="_blank" style="text-decoration: underline; color: #555555; font-size: 16px;">Wu et al., 2021b</a>, 
+      <a href="https://doi.org/10.1029/2021GL097165" target="_blank" style="text-decoration: underline; color: #555555; font-size: 16px;">2022</a>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px; background-color: white; border: 1px solid white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <div style="flex: 1.5; margin-right: 20px;">
+    <img src="/images/PINN.png" alt="Project 2" style="width: 100%; height: auto; display: block; border-radius: 5px;">
+  </div>
+  <div style="flex: 2;"> 
+    <h2 style="margin-top: 0;">&#9658; Physics-Guided Resistivity Imaging</h2>
+    <p, align = "justify; margin-bottom: 5px;">We geveloped a physics-guided neural network (PGNN) by 
+    incorporating the governing physical laws as a data misfit term into the loss function. Inversion results for more than 2,734,000
+    AEM soundings acquired from the Pine Creek area in the Northern Territory of Australia can be delivered in minutes. The PGNN enables physically consistent
+    inference of resistivity models and facilitates large-scale imaging of underground resistivity sturctures.</p>
+    
+    <p style="text-align: right; margin-top: 0px;margin-bottom: 0px;">
+      <a href="https://doi.org/10.1093/gji/ggae244" target="_blank" style="text-decoration: underline; color: #555555; font-size: 16px;">Wu et al., 2024</a>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px; background-color: white; border: 1px solid white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <div style="flex: 1.5; margin-right: 20px; align-self: center;">
+    <img src="/images/INN2.png" alt="Project 2" style="width: 100%; height: auto; display: block; border-radius: 5px;">
+  </div>
+  <div style="flex: 2;"> 
+    <h2 style="margin-top: 0;">&#9658; Uncertainty Quantification</h2>
+    <p, align = "justify; margin-bottom: 5px;align-self: center;">AEM inversion suffers from severe non-uniqueness of solutions. 
+      We developed a fast Bayesian inversion operator based on INN to explore the posterior distributions. 
+      The INN inversion for 23,366 AEM soundings acquired in Queensland and New South Wales, Australia takes less than five minutes, 
+      demonstrating tremendous potential for near real-time uncertainty evaluation of underground structures.
+      </p>
+    
+    <p style="text-align: right; margin-top: 0px;margin-bottom: 0px;">
+      <a href="https://doi.org/10.1109/TGRS.2023.3264777" target="_blank" style="text-decoration: underline; color: #555555; font-size: 16px;">Wu et al., 2023b</a>
+    </p>
+  </div>
+</div>
