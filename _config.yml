@@ -12,7 +12,7 @@ title                    : "Yukun Wang"
 title_separator          : "-"
 name                     : &name "Yukun Wang"
 description              : &description "A PhD candidate in bioinformatics"
-url                      : https://yooking.top # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://yukunwang.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "YooKing/yooking.github.io"
 
