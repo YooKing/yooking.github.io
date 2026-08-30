@@ -21,6 +21,7 @@ Research Interests
 
 Publications
 ======
+- Zhou X, Chen C, Zeng Y, Yang Z, Zhuo Y, **Wang Y**, Zhang L, Cai X, Guo X. Neoadjuvant chemoimmunotherapy combined with node-sparing radiotherapy for clinical T3N+ locally advanced esophageal squamous cell carcinoma: a prospective single-arm, phase II study (CINSREC trial). *Thoracic Cancer*, 2025;16(22):e70191. [Link](https://doi.org/10.1111/1759-7714.70191)
 - Song M, Ma S, Wang G, **Wang Y**, Yang Z, Xie B, Guo T, Huang X, Zhang L. Benchmarking copy number aberrations inference tools using single-cell multi-omics datasets. *Briefings in Bioinformatics*, 2025;26(2):bbaf076. [Link](https://doi.org/10.1093/bib/bbaf076)
 - Zhou J, Chen Y, Qu J H, **Wang Y K**, Mai W N, Wan D J, Lu X Y. Responses of microbial community and antibiotic resistance genes to co-existence of chloramphenicol and salinity. *Applied Microbiology and Biotechnology*, 2022. [Link](https://doi.org/10.1007/s00253-022-12188-3)
 - Zhou J, Chen Y, Qu J H, **Wang Y K**, Li P L, Xu W L, Huang Y J, Mai W N. Isolation of the salt-tolerant bacterium *Halomonas* sp. A20 and its degradation of saccharin sodium wastewater. *Microbiology China*, 2022. [Link](http://dx.doi.org/10.13344/j.microbiol.china.210521)
