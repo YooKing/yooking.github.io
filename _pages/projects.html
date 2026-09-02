@@ -8,7 +8,11 @@ author_profile: true
 {% include base_path %}
 
 <p align="justify">
-My research centers on the evolutionary dynamics of cancer metastasis and post-operative recurrence, studied through an integrative multi-omics lens. I work at the interface of computational biology and clinical oncology, turning genomic, transcriptomic, proteomic, and single-cell data from primary and recurrent tumors into biological insight and clinically useful tools. The four threads below describe my ongoing research themes.
+My research centers on the evolutionary dynamics of cancer metastasis and post-operative recurrence, studied through an integrative multi-omics lens. I work at the interface of computational biology and clinical oncology, turning genomic, transcriptomic, proteomic, and single-cell data from primary and recurrent tumors into biological insight and clinically useful tools. The five threads below describe my ongoing research themes.
+</p>
+
+<p align="justify">
+Artificial intelligence runs through all of this work as a unifying methodological thread. I develop and apply machine-learning and deep-learning approaches to high-dimensional cancer data — from feature selection and disease modelling on integrated multi-omics profiles to large pretrained single-cell foundation models — with an emphasis on representations that stay interpretable and translate to clinical questions.
 </p>
 
 <h2>1. Integrated multi-omics profiling of recurrent hepatocellular carcinoma</h2>
@@ -21,12 +25,17 @@ Hepatocellular carcinoma (HCC) remains a serious health challenge worldwide. One
 Large-scale single-cell and spatial multi-omics data are now generated faster than they can be reliably interpreted. I develop and benchmark computational tools that make these data easier to analyse and reuse — including methods for inferring copy-number aberrations and cellular states from single-cell transcriptomes, and systematic evaluations that map where existing tools disagree and why. The goal is a more reproducible, tool-agnostic foundation for downstream cancer genomics. Related work has been published in <a href="https://doi.org/10.1093/bib/bbaf076" target="_blank"><em>Briefings in Bioinformatics</em></a>.
 </p>
 
-<h2>3. Tumour evolution and biomarker discovery in esophageal squamous cell carcinoma</h2>
+<h2>3. Single-cell and spatial foundation models for the tumour microenvironment</h2>
+<p align="justify">
+Large pretrained language models are reshaping how single-cell data are analysed. I work with foundation models such as Nicheformer — a transformer pretrained on over 110 million human and mouse cells from dissociated single-cell and spatial transcriptomics assays — to learn embeddings that capture both cell state and spatial context. I am applying these representations to liver cancer, using unsupervised clustering and signature validation to dissect intratumoural heterogeneity and identify HCC-like, CCA-like, and stem-like subpopulations, and integrating spatial transcriptomics data to test how well model embeddings recover microenvironmental organisation and spatial niche composition.
+</p>
+
+<h2>4. Tumour evolution and biomarker discovery in esophageal squamous cell carcinoma</h2>
 <p align="justify">
 Together with clinical collaborators at Shanghai Chest Hospital, I study esophageal squamous cell carcinoma (ESCC), with an emphasis on characterising tumour evolution and the microenvironment in response to neoadjuvant chemoimmunotherapy, and on identifying biomarkers that can guide individualised treatment decisions — including radiotherapy target-volume design for lymph-node–positive disease. My contribution spans multi-omics data integration, biomarker discovery, and clinical trial data analysis. This collaboration has contributed to prospective clinical research, including the CINSREC trial (<a href="https://doi.org/10.1111/1759-7714.70191" target="_blank"><em>Thoracic Cancer</em></a>).
 </p>
 
-<h2>4. Clinical translation of recurrence prediction</h2>
+<h2>5. Clinical translation of recurrence prediction</h2>
 <p align="justify">
 A unifying theme across my work is closing the loop between discovery and clinical decision-making. I am interested in translating molecular signatures of recurrence and metastasis into risk-stratification models and decision-support resources that clinicians can act on — from prognostic biomarker panels to openly documented, reproducible analytical workflows that make large-scale cancer omics data easier to interpret and reuse.
 </p>
