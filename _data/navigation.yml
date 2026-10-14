@@ -6,23 +6,23 @@
 
 main:
 
-  - title: "News"
-    url: /year-archive/
-
   - title: "Research"
     url: /projects/
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Blog"
-    url: https://blog.yukunwang.com
+  - title: "Awards & Activities"
+    url: /awards-activities/
+
+  - title: "News"
+    url: /year-archive/
+
+# CV 内容已并入 About Me 首页（含 PDF 链接）。
+# Blog: https://blog.yukunwang.com （首页正文里有入口）
 
 #  - title: "Teaching"
 #   url: /teaching/
 
  # - title: "Portfolio"
  #   url: /portfolio/
-
-  - title: "CV"
-    url: /cv/
