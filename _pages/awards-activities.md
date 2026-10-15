@@ -7,7 +7,7 @@ author_profile: true
 
 ## Honors & Awards
 
-- **Outstanding Student**（三好学生），ShanghaiTech University — 2025
+- **Outstanding Student**（优秀学生），ShanghaiTech University — 2025
 - **Outstanding Communist Youth League Member**（优秀共青团员），ShanghaiTech University — 2024
 
 ## Talks & Presentations
