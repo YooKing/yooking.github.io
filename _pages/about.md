@@ -9,9 +9,7 @@ redirect_from:
   - /resume
 ---
 
-I am a PhD candidate in bioinformatics at ShanghaiTech University, working on cancer multi-omics, with a focus on the mechanisms of metastasis and recurrence in hepatocellular carcinoma (HCC). By integrating genomics, transcriptomics, and proteomics data from primary and recurrent tumors, I aim to characterize the evolutionary dynamics of cancer cells during metastatic progression and to identify factors driving post-operative recurrence. I am also involved in translational research on esophageal squamous cell carcinoma (ESCC).
-
-Before starting my PhD, I received my B.Eng. in bioengineering from Henan University of Technology (2018–2022).
+I am a PhD candidate in bioinformatics at ShanghaiTech University, working on cancer multi-omics. I received my B.Eng. in bioengineering from Henan University of Technology in 2022, and my research now focuses on the mechanisms of metastasis and recurrence in hepatocellular carcinoma (HCC). By integrating genomics, transcriptomics, and proteomics data from primary and recurrent tumors, I aim to characterize the evolutionary dynamics of cancer cells during metastatic progression and to identify factors driving post-operative recurrence. I am also involved in translational research on esophageal squamous cell carcinoma (ESCC).
 
 I am dedicated to developing and applying data-driven methods to discover novel biomarkers and therapeutic targets, and to building computational resources that make large-scale cancer omics data easier to interpret and reuse.
 
